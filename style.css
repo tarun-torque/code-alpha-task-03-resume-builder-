@@ -1,0 +1,335 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg{
+	background-image: url('wave.svg');
+	background-repeat: no-repeat;
+}
+
+.bg2{
+	background-color:whitesmoke;
+      
+}
+
+nav{
+	margin-bottom:35vh;
+}
+
+#web-name{
+	font-weight: 900;
+	font-family: cursive;
+	font-size: x-large;
+	margin-left: 3%;
+}
+
+
+
+
+#home{
+	margin-left: 30vw;
+	font-size: x-large;
+	font-weight: 800;
+	color: #9020D0;
+}
+#abt{
+	margin-left: 10vw;
+	font-size: x-large;
+	font-weight: 800;
+	color: #9020D0;
+
+}
+
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+	margin-bottom: 35vh;
+}
+.div1 .line{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.div1 .sub-line{
+    font-size: 1rem;
+    
+}
+.div1 #btn1{
+    width: 10vw;
+    height: 7vh;
+    border: none;
+    color: white;
+    background-color: #9020D0;
+    cursor: pointer;
+    
+}
+.div1 #btn2{
+    width: 10vw;
+    height: 7vh;
+    border: none;
+    color: white;
+    background-color: #9020D0;
+    cursor: pointer;
+    display: none;
+    
+}
+
+   .personal-heading{
+	background-color: #b6dbcb;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 800;
+	margin-left: 2vw;
+   }
+
+
+   .personal p{
+	margin-top: 2vw;
+   }
+
+
+.inp{
+    margin-left: 40vw;
+}
+
+
+label span{
+    margin-left: 4vw;
+    
+}
+
+textarea{
+    width: 95vw;
+    height: 10vh;
+	margin-left: 2vw;
+	margin-bottom: 2vw;
+}
+
+form{
+    display: none;
+}
+
+#btn3{
+	width: 10vw;
+    height: 7vh;
+    border: none;
+    color: black;
+    background-color: #9080B0;
+    cursor: pointer;
+	margin-left: 43vw;
+	margin-top: 5vw;
+	margin-bottom: 10vh;
+	display: none;
+}
+
+
+
+#btn3-pre{
+	width: 10vw;
+    height: 7vh;
+    border: none;
+    color: black;
+    background-color: #9080B0;
+    cursor: pointer;
+	margin-left: 43vw;
+	margin-top: 5vw;
+	margin-bottom: 10vh;
+	display: none;
+}
+
+
+
+.steps{
+	margin-left: 5vw;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: larger;
+	font-weight: bold;
+
+}
+
+
+.step1{
+	display: flex;
+	margin-left: 40vw;
+	margin-bottom: 10vh;
+	
+}
+
+#s1,#s2{
+	width: 70px;
+	height: 70px;
+	background-color: #20FFA0;
+	border-radius: 50%;
+	border: 1px dashed black;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #8020D0;
+	font-size: 2vw;
+	
+	
+}
+
+
+.step2{
+	display: flex;
+	margin-left: 40vw;
+
+}
+
+
+#text1,#text2{
+	margin-left: 3vw;
+	margin-top: 4vh;
+	font-size: 1.5vw;
+}
+
+.benifits{
+
+	margin-top: 20vh;
+}
+
+
+.benifits p{
+	margin-left: 5vw;
+	margin-right: 5vw;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: larger;
+	font-weight: bold;
+}
+
+
+
+.rectangle{
+	width: 30vw;
+	height: 8vh;
+	border: 2px solid #403060;
+	border-radius: 100px;
+	background-color: #403060;
+    color: beige;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: large;
+}
+
+.circle{
+	width: 70px;
+	height: 70px;
+	border: 4px solid #403060;
+	border-radius: 50%;
+	background-color: #403060;
+	border-top-color: #20FFA0;
+	margin-bottom: -40px;
+	color: #20ff58;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: x-large;
+}
+
+
+.bullet-points{
+	margin-bottom: 3%;
+	
+}
+
+
+#first{
+	margin-left: 40vw;
+}
+
+
+
+#second{
+	margin-left: 35vw;
+}
+
+#third{
+	margin-left: 45vw;
+}
+
+
+
+#fourth{
+	margin-left: 40vw;
+}
+
+
+
+.about{
+	margin-top: 10vh;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: large;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+}
+
+.about p{
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: larger;
+	margin-bottom: 3vh;
+}
+
+footer {
+    margin-top: 10vh;
+	background-color: #E080A0;
+}
+
+
+footer p{
+	margin-left: 40vw;
+}
+
+
+
+
+
+.output{
+	margin-left:13vw;
+	width: 70vw;
+	border:2px dashed black;
+}
+
+
+.p{
+	margin-top:3vh;
+	margin-bottom:3vh;
+	margin-left: 4vw;
+	font-size: large;
+
+}
+
+#name_out,#email_out,#linkedin_out,#number_out{
+	margin-left:20vw;
+	font-size: large;
+	margin-bottom:5vh;
+
+}
+
+
+
+
+
+#print{
+	width: 10vw;
+    height: 7vh;
+    border: none;
+    color: black;
+    background-color: #9080B0;
+    cursor: pointer;
+	margin-left: 43vw;
+	margin-top: 5vw;
+	margin-bottom: 10vh;
+	display: none;
+}
+
+
+#printable{
+	display: none;
+}

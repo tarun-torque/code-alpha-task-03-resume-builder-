@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="bg">
+
+
+     <nav>
+        
+        <span id="web-name">ResuMakr</span>
+        <span id="home">Home</span>
+        <span id="abt">About</span>
+
+        
+
+     </nav>
+
+
+
+    <div class="div1"> 
+       <span class="line">
+
+        So easy to use that your<br>
+        <span>resume writes itself<br><br>
+            <span class="sub-line">boost your chances of landing that dream job<br><br></span>
+
+        </span>
+        <input type="button" value="Try it out"  id="btn1" onclick="start()">
+
+        <input type="button" value="Not now"  id="btn2" onclick="end()">
+           </span> 
+      
+        <img src="head-photo.gif" alt="none">
+    </div>
+
+
+</div>
+
+
+
+
+<form id="fm">
+    <div class="personal-heading"  >Personal details</div> 
+
+    <div class="personal">
+
+    <p><label> <span>Full Name</span>
+           <input class="inp" type="text" id="name">
+    </label></p> 
+   
+
+    <p><label> <span>Email</span>  &nbsp; &nbsp; &nbsp;  &nbsp;
+           <input class="inp" type="email" id="email">
+    </label></p>
+
+
+    <p><label>  <span>LinkedIn</span>  &nbsp; 
+           <input class="inp" type="text" id="linkedin">
+    </label></p>
+
+
+
+    <p style="margin-bottom:2vw;"><label> <span>Phone no</span>  &nbsp; 
+        <input class="inp" type="number" id="number">
+    </label></p>
+
+</div>
+
+
+
+<div class="row personal-heading"  >Experience</div> 
+
+    <div class="personal">
+
+    <p> <label> 
+           <textarea id="experience"></textarea >
+    </label></p> 
+   
+</div>
+
+
+
+
+<div class="row personal-heading"  >Education</div> 
+
+    <div class="personal">
+
+    <p style="margin-bottom:2vw;" ><label> 
+           
+           <textarea id="education"></textarea >
+
+    </label></p> 
+   
+</div>
+
+
+
+<div class="row personal-heading"  >Key Achievements</div> 
+
+    <div class="personal">
+
+    <p style="margin-bottom:2vw;"><label> 
+          
+           <textarea id="key"></textarea >
+    </label></p> 
+   
+</div>
+
+
+<div class="row personal-heading"  >skills</div> 
+
+    <div class="personal">
+
+    <p style="margin-bottom:2vw;"><label>
+
+           <textarea id="skills"></textarea >
+    </label></p> 
+   
+</div>
+
+
+<div class="row personal-heading"  >Language</div> 
+
+    <div class="personal">
+
+    <p> <label> 
+           
+           <textarea id="language"></textarea >
+    </label>  </p> 
+   
+</div>
+                              
+
+<input type="button" id="btn3"  onclick="previewOpen()" value="Generate CV">
+<input type="button" id="btn3-pre" onclick="previewEnd()" value="Nice">
+
+            
+
+</form>
+
+
+
+
+
+
+  <div class="output" id="printable">
+
+    
+
+    <p class="personal-heading " style="margin-top: 2vh; margin-bottom:2vh;" >Personal details</p>
+    <p  id="name_out"></p>
+     <p  id="email_out"></p>
+    <p  id="linkedin_out"></p>
+    <p  id="number_out"></p>
+
+
+    <p class="personal-heading "style="margin-top: 2vh; margin-bottom:2vh;" >Experience</p>
+    <p  id="experience_out" class="p"></p>
+
+
+    <p class="personal-heading ">Education</p>
+    <p  id="education_out" class="p"></p>
+
+    <p class="personal-heading ">Key Achievements</p>
+    <p  id="key_out"class="p"></p>
+
+  
+    <p class="personal-heading ">Skills</p>  
+    <p  id="skills_out" class="p"></p>
+
+    
+    <p class="personal-heading ">Language</p>
+    <p  id="language_out" class="p"></p>
+   
+    
+  </div>          
+
+  <input type="button" id="print" onclick="myfunc('printable')" value="print resume">
+
+
+
+<div class="bg2">
+
+
+  <div class="steps">Build your resume in 2 easy  steps</div>
+<div class="step1"> 
+    <div id="s1">1</div> 
+    <div id="text1" >Enter your details</div>   
+</div>
+
+
+
+<div class="step2">
+<div id="s2">2</div> 
+<div id="text2">Get your resume </div>
+</div>
+
+
+
+
+<div class="benifits">
+  <p>  A well-crafted resume can be an essential tool in your job search process. It serves as a concise and organized representation of your qualifications, experiences, and skills, which can help you stand out to potential employers.These are the some benifits of making resume ,you will have these benifits </p>
+
+</div>
+
+
+<div class="bullet-points" id="first">
+<div class="circle"><span>A</span> </div> 
+<div class="rectangle"> <span>Supports Interview Conversations</span></div>
+</div>
+
+
+
+<div class="bullet-points" id="second">
+    <div class="circle">     <span>B</span>      </div> 
+    <div class="rectangle"> <span>Increases Job Search Efficiency</span></div>
+    </div>
+
+
+    <div class="bullet-points" id="third">
+        <div class="circle"><span>C</span> </div> 
+        <div class="rectangle"> <span> Online Presence and Networking</span></div>
+        </div>
+
+
+        <div class="bullet-points" id="fourth">
+            <div class="circle"> <span>D</span></div> 
+            <div class="rectangle"> <span>Showcases Your Skills</span> </div>
+            </div>
+
+
+
+       <div class="about">
+        <p >About</p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ratione facere tempora cupiditate aperiam et, nulla libero laudantium fugiat reprehenderit incidunt ea rerum! Ratione a id commodi animi quaerat nesciunt!
+        Quia repudiandae dolorem, consectetur tempora laboriosam aliquid quaerat nesciunt id ab quo hic? Id reprehenderit ducimus minima quis molestias magnam, ab est sequi saepe molestiae minus, explicabo provident ullam! Autem!
+        Velit labore quae facilis vitae molestiae, soluta eos quas tenetur adipisci nemo. Ipsum quos laboriosam omnis dignissimos sapiente! Hic possimus incidunt autem veritatis suscipit nam, vero eius quos tempora laboriosam?
+        Explicabo eum id, aspernatur quisquam qui numquam distinctio sed culpa recusandae et! Suscipit, debitis molestiae officia corporis et dolores enim nostrum voluptatibus maxime, fuga aperiam dicta temporibus vitae, voluptate beatae?
+        Dignissimos veritatis aperiam delectus tempore iure adipisci. Quod placeat perspiciatis repellendus aperiam quis veniam temporibus doloribus labore animi facere ut ipsa mollitia harum sed, inventore quaerat non in magni corporis.
+
+       </div>
+ 
+    </div>
+
+<footer>
+  <p>&copy;  ResuMakr , All rights reserved</p>  
+
+</footer>
+
+
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="javascript.js"></script>
+</body>
+
+
+
+</html>
